@@ -15,6 +15,9 @@ h1 {
   text-align: center;
   font-family: corbel;
   text-transform: uppercase;
+  font-size: 30px;
+  font-weight:normal;
+  letter-spacing: 4px;
 }
 
 
@@ -26,7 +29,7 @@ h3 {
 
 h3, .byline {
   display: inline;
-  margin-right: 250px;
+  margin-right: 300px;
 }
 
 .byline {
@@ -41,7 +44,8 @@ h3, .byline {
 
 h6 {
     font-family: rockwell;
-  color: whitesmoke
+  color: whitesmoke;
+  font-size: 14px;
 }
 
 
@@ -50,6 +54,35 @@ p {
   font-size: 16;
   overflow: auto;
   font-weight: bold;
+  border-bottom: 1px solid LightGrey;
+  border-spacing: 100px;
+  padding-bottom: 25px;
+}
+
+p2 {
+  font-family: corbel;
+  font-size: 16;
+  overflow: auto;
+  margin-right: 0%;
+  padding-right: 0px;
+  margin-left: 45%;
+  float: left;
+  width: 100%;
+  border-left: 1px solid LightGrey;
+  padding-left: 25px;
+}
+
+p3 {
+ margin-left: 0%;
+ font-size: 17px;
+ font-family: corbel;
+ float: center;
+}
+
+p4 {
+ margin-left: 45%;
+ font-size: 16px;
+ font-family: corbel;
 }
 
 nav {
@@ -71,11 +104,7 @@ nav ul {
 }
 
 .row {  
-  display: flex;
-  flex-wrap: wrap;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+
   background: rgb(243, 241, 241);
   padding: 16px;
   font-family: rockwell;
